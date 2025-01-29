@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
     Icon = "origami",
     LoadingTitle = "Techiebirb's Scripts",
     LoadingSubtitle = "by Sirius",
-    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+    Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
  
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -16,5 +16,6 @@ local Window = Rayfield:CreateWindow({
     },
  })
 
+local Universal = Window:CreateTab("Tab Example", "globe")
 
 Rayfield:LoadConfiguration()
