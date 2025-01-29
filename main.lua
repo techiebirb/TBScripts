@@ -4,16 +4,20 @@ local Window = Rayfield:CreateWindow({
     Icon = "origami",
     LoadingTitle = "Techiebirb's Scripts",
     LoadingSubtitle = "by Sirius",
-    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
- 
+    Theme = "Default",
     DisableRayfieldPrompts = false,
-    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
- 
+    DisableBuildWarnings = false,
     ConfigurationSaving = {
-       Enabled = true,
-       FolderName = nil, -- Create a custom folder for your hub/game
-       FileName = "TBScriptsConfig"
+        Enabled = true,
+        FolderName = nil,
+        FileName = "TBScriptsConfig"
     },
+    Discord = {
+        Enabled = false,
+        Invite = "noinvitelink",
+        RememberJoins = true
+    },
+   KeySystem = false,
  })
 
 
