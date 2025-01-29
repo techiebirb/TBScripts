@@ -1,3 +1,4 @@
+if game.PlaceId == 12931609417 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow(
     {
@@ -8,5 +9,5 @@ local Window = OrionLib:MakeWindow(
         IntroEnabled=false
     }
 )
-
+end
 OrionLib:Init()
