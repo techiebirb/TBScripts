@@ -5,9 +5,8 @@ local Window = OrionLib:MakeWindow(
         HidePremium=true,
         SaveConfig=true,
         ConfigFolder="Techiebirb's Scripts",
-        IntroEnabled=true, IntroText="TBScripts",
-        IntroIcon="https://avatars.githubusercontent.com/u/73718824",
-        Icon="https://avatars.githubusercontent.com/u/73718824"
+        IntroEnabled=true,
+        IntroText="TBScripts"
     }
 )
 
@@ -18,4 +17,10 @@ IntroText = <string> - Text to show in the intro animation.
 IntroIcon = <string> - URL to the image you want to use in the intro animation.
 Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
-]]
+
+IntroIcon="https://avatars.githubusercontent.com/u/73718824",
+Icon="https://avatars.githubusercontent.com/u/73718824"
+
+]]--
+
+OrionLib:Init()
