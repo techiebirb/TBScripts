@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow(
         Name="Techiebirb's Scripts",
         HidePremium=true,
         SaveConfig=true,
-        ConfigFolder="Techiebirb's Scripts",
+        ConfigFolder="TBScripts",
         IntroEnabled=false
     }
 )
