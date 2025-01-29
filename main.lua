@@ -1,7 +1,15 @@
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name="Techiebirb's Scripts", HidePremium=true, SaveConfig=true, ConfigFolder="Techiebirb's Scripts", IntroEnabled=true, IntroText="TBScripts", IntroIcon="https://avatars.githubusercontent.com/u/73718824", Icon="https://avatars.githubusercontent.com/u/73718824"})
+local Window = OrionLib:MakeWindow(
+    {
+        Name="Techiebirb's Scripts",
+        HidePremium=true,
+        SaveConfig=true,
+        ConfigFolder="Techiebirb's Scripts",
+        IntroEnabled=true, IntroText="TBScripts",
+        IntroIcon="https://avatars.githubusercontent.com/u/73718824",
+        Icon="https://avatars.githubusercontent.com/u/73718824"
+    }
+)
 
 
 --[[
