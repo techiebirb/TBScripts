@@ -16,6 +16,4 @@ local Window = Rayfield:CreateWindow({
    },
 })
 
-local Tab = Window:CreateTab("General", "globe")
-
 Rayfield:LoadConfiguration()
